@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation Project</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <main>
+    <div class="content">
+      <form action="" method="get">
+        <h1 class="title">Let's Talk</h1>
+        <div class="horizontal">
+          <div class="row gap">
+            <label for="name" class="label-txt">
+              Name *
+            </label>
+            <input id="name" type="text" class="border-only-bottom active" placeholder="Your name" required>
+          </div>
+          <div class="row gap">
+            <label for="email" class="label-txt">
+              Email *
+            </label>
+            <input id="email" type="email" class="border-only-bottom active" placeholder="Your email" required>
+          </div>
+        </div>
+        
+        <div class="row">
+          <label for="subject" class="label-txt">
+            Subject *
+          </label>
+          <input id="subject" type="text" class="border-only-bottom active" placeholder="Your subject">
+        </div>
+        <div class="row">
+          <label for="message" class="label-txt">
+            Message *
+          </label>
+          <textarea name="message" id="message" cols="30" rows="5" class="border-only-bottom active" placeholder="Write your message" required></textarea>
+        </div>
+        <div class="row">
+          <button>SEND MESSAGE</button>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
